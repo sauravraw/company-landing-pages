@@ -1,0 +1,338 @@
+.container {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+}
+
+.headerContainer {
+	height: 14vh;
+	background-color: #151416;
+}
+
+.navbar {
+	height: 100%;
+	padding: 0 2rem;
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navLinks {
+	width: 36%;
+}
+
+.navLinks ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+}
+
+.navLinks ul li {
+	list-style: none;
+	font-size: 0.95rem;
+	color: #fff;
+}
+
+.navLinks ul li a {
+	text-transform: uppercase;
+}
+
+.hamburger {
+	width: 3rem;
+	height: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	display: none;
+}
+
+.hamburger .hamLine1 {
+	background-color: #fff;
+	width: 2.2rem;
+	height: 0.3rem;
+	position: absolute;
+	top: 2px;
+}
+
+.hamburger .hamLine2 {
+	background-color: #fff;
+	width: 2.2rem;
+	height: 0.3rem;
+	position: absolute;
+	top: 13px;
+}
+
+.hamburger .hamLine3 {
+	background-color: #fff;
+	width: 2.2rem;
+	height: 0.3rem;
+	position: absolute;
+	top: 24px;
+}
+
+.bannerContainer {
+	background-color: #151416;
+	height: 65vh;
+	width: 100%;
+	margin-bottom: 5.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner {
+	color: #fff;
+	width: 45%;
+}
+
+.bannerTitle {
+	font-size: 3rem;
+}
+
+.bannerContent {
+	font-size: 1.2rem;
+	margin-top: 2rem;
+	width: 86%;
+	line-height: 1.6;
+}
+
+.bannerImage {
+	height: 360px;
+	width: 40%;
+}
+
+.bannerImage img {
+	width: 90%;
+	height: 120%;
+}
+
+.aboutContainer {
+	min-height: 55vh;
+	padding: 5rem 0;
+	text-align: center;
+}
+
+.aboutContent {
+	width: 65%;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin: 0 auto;
+	margin-bottom: 3.5rem;
+	text-align: center;
+}
+
+.about a {
+	background-color: #2a6ed5;
+	color: #fff;
+	padding: 1rem;
+	border-radius: 3rem;
+	cursor: pointer;
+}
+
+.footerContainer {
+	width: 100%;
+}
+
+.footer {
+	width: 100%;
+	background-color: #151416;
+	color: #fff;
+	padding: 6rem 0 2rem 0;
+}
+
+.footerTop {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.footerTop h2 {
+	width: 92%;
+	text-align: center;
+	font-weight: 600;
+	font-size: 2rem;
+	margin-bottom: 3rem;
+}
+
+.footerTop a {
+	padding: 14px 38px;
+	background-color: #439ee5;
+	color: #fff;
+	border-radius: 50px;
+	font-weight: 600;
+}
+
+.footerBottom {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 4rem;
+}
+
+.socialIcons {
+	width: 22%;
+}
+
+.socialIcons ul {
+	font-size: 0.9rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.privacy {
+	width: 15%;
+}
+
+.privacy ul {
+	font-size: 0.9rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.privacy a {
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.privacy img {
+	width: 20px;
+	height: 20px;
+}
+
+.copyright {
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.copyright h4 {
+	text-align: center;
+	font-size: 0.9rem;
+	font-weight: normal;
+	margin-bottom: 2rem;
+}
+
+.copyright img {
+	width: 6rem;
+	height: 6rem;
+}
+
+@media screen and (max-width: 1200px) {
+	.navLinks {
+		width: 42%;
+	}
+
+	.bannerImage {
+		width: 35%;
+	}
+
+	.bannerImage img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.bannerContainer {
+		margin-bottom: 0;
+	}
+
+	.socialIcons {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 946px) {
+	.navLinks {
+		display: none;
+	}
+
+	.socialIcons {
+		width: 28%;
+	}
+
+	.privacy {
+		width: 20%;
+	}
+
+	.hamburger {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.bannerTitle {
+		font-size: 2rem;
+	}
+
+	.socialIcons {
+		width: 35%;
+	}
+
+	.privacy {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.bannerTitle {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	.bannerContainer {
+		flex-direction: column-reverse;
+		min-height: 80vh;
+	}
+
+	.banner {
+		width: 100%;
+		text-align: center;
+	}
+
+	.bannerImage {
+		height: 265px;
+		width: 60%;
+		margin-bottom: 3rem;
+	}
+
+	.bannerContent {
+		font-size: 0.9rem;
+		width: 85%;
+		margin: 0 auto;
+		line-height: 1.6;
+	}
+
+	.aboutContainer {
+		min-height: 60vh;
+	}
+
+	.socialIcons {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.privacy {
+		width: 100%;
+		margin: 1rem auto;
+	}
+
+	.footerBottom {
+		display: flex;
+		flex-direction: column;
+	}
+}

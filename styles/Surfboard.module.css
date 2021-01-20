@@ -1,0 +1,266 @@
+.container {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+}
+
+.headerContainer {
+	padding: 1.5rem;
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 5%;
+	z-index: 1;
+}
+
+.navLinks {
+	width: 30%;
+	margin-left: 450px;
+}
+
+.navLinks ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+}
+
+.navLinks ul li {
+	list-style: none;
+	font-size: 0.95rem;
+	color: #000;
+}
+
+.anchorhover:hover {
+	color: #28c8dc;
+}
+
+.loginbtn {
+	width: 150px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #28c8dc;
+	color: #fff;
+	font-size: 17px;
+	line-height: 20px;
+	padding: 8px 50px 11px;
+}
+
+.hamburger {
+	width: 3rem;
+	height: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	display: none;
+	font-size: 30px;
+}
+
+.bannerContainer {
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	position: relative;
+}
+
+.banner {
+	color: #000;
+	transform: translate(-50%, -50%);
+	width: 60%;
+	position: absolute;
+	top: 50%;
+	left: 38%;
+}
+
+.bannerTitle {
+	font-size: 3rem;
+	font-weight: 900;
+	margin-bottom: 2rem;
+}
+
+.bannerContent {
+	line-height: 1.8;
+	width: 90%;
+	font-size: 1.2rem;
+}
+
+.footerContainer {
+	min-height: 45vh;
+}
+
+.footerContainer li {
+	list-style: none;
+}
+
+.footer {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.footerLinks {
+	padding: 3rem 0;
+	min-height: 35vh;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.9rem;
+}
+
+.footerLinks div {
+	padding: 1rem;
+}
+
+.nav1 li {
+	padding: 5px 0;
+	color: #595e67;
+}
+
+.hrline {
+	color: #595e67;
+}
+
+.nav1 li:hover {
+	text-decoration: underline;
+}
+
+.nav2 li {
+	padding: 5px 0;
+	color: #595e67;
+}
+
+.nav2 li:hover {
+	text-decoration: underline;
+}
+
+.mail {
+	color: #595e67;
+}
+
+.socialMedia {
+	width: 20%;
+}
+
+.socialMedia ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.socialMedia img {
+	width: 20px;
+	height: 20px;
+}
+
+.copyright {
+	font-size: 0.9rem;
+	padding: 1rem;
+	text-align: center;
+}
+
+.scrollup img {
+	width: 35px;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+}
+@media screen and (max-width: 992px) {
+	.headerContainer {
+		width: 100%;
+		left: 0;
+	}
+
+	.navLinks {
+		width: 40%;
+	}
+
+	.banner {
+		width: 95%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.bannerContainer {
+		background-image: linear-gradient(
+			rgba(255, 255, 255, 0.7),
+			rgba(255, 255, 255, 0.7)
+		);
+	}
+
+	.bannerContent {
+		width: 100%;
+	}
+
+	.footer {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.navLinks {
+		width: 35%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.navLinks {
+		display: none;
+	}
+
+	.loginbtn {
+		display: none;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.bannerContent {
+		line-height: 1.5;
+		font-size: 1.2rem;
+	}
+
+	.footerLinks {
+		flex-wrap: wrap;
+	}
+
+	.socialMedia {
+		width: 24%;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.footerLinks {
+		padding: 2rem 0;
+		display: block;
+		text-align: center;
+	}
+
+	.footerLinks div {
+		padding: 0.2rem;
+	}
+
+	.socialMedia {
+		width: 25%;
+		margin: 0.5rem auto;
+	}
+
+	.nav1 ul,
+	.nav2 ul {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.nav1 ul li,
+	.nav2 ul li {
+		margin: 0 1rem;
+	}
+}
