@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import styles from "../styles/Raw.module.css";
+import { GiHamburgerMenu } from "react-icons/gi";
+const url = "https://login-page-react.vercel.app/";
 
 export class RawComponent extends Component {
 	render() {
@@ -12,7 +14,11 @@ export class RawComponent extends Component {
 					<div className={styles.navbar}>
 						<div className={styles.logo}>
 							<a href="/">
-								<img src={header[0].logo.url} alt="logo" />
+								<img
+									className={styles.logoimg}
+									src={header[0].logo.url}
+									alt="logo"
+								/>
 							</a>
 						</div>
 						<div className={styles.navLinks}>
@@ -26,10 +32,14 @@ export class RawComponent extends Component {
 								})}
 							</ul>
 						</div>
+
+						<a href={url}>
+							<div className={styles.loginbtn}>Login</div>
+						</a>
 						<div className={styles.hamburger}>
-							<span className={styles.hamLine1}></span>
-							<span className={styles.hamLine2}></span>
-							<span className={styles.hamLine3}></span>
+							<a href={url}>
+								<GiHamburgerMenu />
+							</a>
 						</div>
 					</div>
 				</header>
