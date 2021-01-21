@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+
 .container {
 	width: 100%;
 	min-height: 100vh;
@@ -57,37 +59,13 @@
 .hamburger {
 	width: 3rem;
 	height: 2rem;
-	display: flex;
+	display: none;
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	display: none;
+	font-size: 30px;
+	color: #fff;
 }
-
-.hamburger .hamLine1 {
-	background-color: #fff;
-	width: 2.2rem;
-	height: 0.3rem;
-	position: absolute;
-	top: 2px;
-}
-
-.hamburger .hamLine2 {
-	background-color: #fff;
-	width: 2.2rem;
-	height: 0.3rem;
-	position: absolute;
-	top: 13px;
-}
-
-.hamburger .hamLine3 {
-	background-color: #fff;
-	width: 2.2rem;
-	height: 0.3rem;
-	position: absolute;
-	top: 24px;
-}
-
 .bannerContainer {
 	width: 100%;
 	height: 100vh;
@@ -119,11 +97,36 @@
 	margin-bottom: 2rem;
 	font-size: 1.2rem;
 }
+.loginbtn {
+	transition: 0.4s cubic-bezier(0.335, 0.815, 0.47, 1);
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 3px;
+	background: #eb5646;
+	background-image: none;
+	color: #fff;
+	padding: 0 30px;
+	line-height: 2.5;
+	text-transform: uppercase;
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+	letter-spacing: 1.1px;
+	text-align: center;
+	font-size: 14px;
+	outline: none;
+	border: 3px solid transparent;
+	white-space: nowrap;
+	margin-top: 8px;
+}
+.loginbtn:hover {
+	background: transparent;
+	border: 2px solid #eb5646;
+}
 
 .cta {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 20%;
 	margin: 0 auto;
 }
 
@@ -148,6 +151,10 @@
 	white-space: nowrap;
 	margin-bottom: 1.5rem;
 }
+.cta a:first-child:hover {
+	background: transparent;
+	border: 2px solid #eb5646;
+}
 
 .cta a:nth-child(2) {
 	border: none;
@@ -160,7 +167,9 @@
 	padding: 20px 0;
 	color: #eb5646;
 }
-
+.cta a:nth-child(2):hover {
+	color: #fff;
+}
 .fooerContainer {
 	padding: 50px 0;
 }
@@ -196,10 +205,15 @@
 	height: 20px;
 }
 
+.navfirst {
+	color: #000;
+}
+
 .nav1 li:first-child,
 .nav2 li:first-child,
 .nav3 li:first-child,
 .nav4 li:first-child {
+	font-family: inter, sans-serif;
 	font-size: 1em;
 	font-weight: 700;
 	margin: 0.5em 0 12.5px;
@@ -211,7 +225,14 @@
 .nav4 li a {
 	display: block;
 	padding: 0.5em 0;
-	color: #7b7b7b;
+	color: #444444;
+}
+
+.nav1 li a:hover,
+.nav2 li a:hover,
+.nav3 li a:hover,
+.nav4 li a:hover {
+	text-decoration: underline;
 }
 
 .footerBottom {
@@ -235,11 +256,17 @@
 .footerBottom ul li {
 	display: inline-block;
 	padding-left: 1em;
-	color: #7b7b7b;
+	color: #444444;
 }
 
+.footerSocialList:hover {
+	opacity: 0.3;
+}
 @media screen and (max-width: 992px) {
 	.navLinks {
+		display: none;
+	}
+	.loginbtn {
 		display: none;
 	}
 
@@ -268,7 +295,9 @@
 	.logo img {
 		width: 95%;
 	}
-
+	.cta {
+		width: 30%;
+	}
 	.footerTop {
 		flex-direction: column;
 		align-items: center;

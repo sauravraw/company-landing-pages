@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import styles from "../styles/Contentstack.module.css";
+import { GiHamburgerMenu } from "react-icons/gi";
+const url = "https://login-page-react.vercel.app/";
 
 export class CsComponent extends Component {
 	render() {
@@ -24,10 +26,13 @@ export class CsComponent extends Component {
 							})}
 						</ul>
 					</div>
+					<a href={url}>
+						<div className={styles.loginbtn}>Login</div>
+					</a>
 					<div className={styles.hamburger}>
-						<span className={styles.hamLine1}></span>
-						<span className={styles.hamLine2}></span>
-						<span className={styles.hamLine3}></span>
+						<a href={url}>
+							<GiHamburgerMenu />
+						</a>
 					</div>
 				</header>
 				<main className={styles.mainContainer}>
@@ -62,7 +67,10 @@ export class CsComponent extends Component {
 							<ul className={styles.footerSocial}>
 								{footer[0].social_links.map((link) => {
 									return (
-										<li key={link.title}>
+										<li
+											className={styles.footerSocialList}
+											key={link.title}
+										>
 											<a href={link.link}>
 												<img src={link.url} alt={link.title} />
 											</a>
@@ -73,7 +81,9 @@ export class CsComponent extends Component {
 						</div>
 						<div className={styles.nav1}>
 							<ul>
-								<li>{footer[0].footer_links[0].title}</li>
+								<li className={styles.navfirst}>
+									{footer[0].footer_links[0].title}
+								</li>
 								{footer[0].footer_links[0].productLinks.map((link) => {
 									return (
 										<li key={link.title}>
@@ -85,7 +95,9 @@ export class CsComponent extends Component {
 						</div>
 						<div className={styles.nav2}>
 							<ul>
-								<li>{footer[0].footer_links[1].title}</li>
+								<li className={styles.navfirst}>
+									{footer[0].footer_links[1].title}
+								</li>
 								{footer[0].footer_links[1].usersLinks.map((link) => {
 									return (
 										<li key={link.title}>
@@ -97,7 +109,9 @@ export class CsComponent extends Component {
 						</div>
 						<div className={styles.nav3}>
 							<ul>
-								<li>{footer[0].footer_links[2].title}</li>
+								<li className={styles.navfirst}>
+									{footer[0].footer_links[2].title}
+								</li>
 								{footer[0].footer_links[2].educationLinks.map(
 									(link) => {
 										return (
@@ -111,7 +125,9 @@ export class CsComponent extends Component {
 						</div>
 						<div className={styles.nav4}>
 							<ul>
-								<li>{footer[0].footer_links[3].title}</li>
+								<li className={styles.navfirst}>
+									{footer[0].footer_links[3].title}
+								</li>
 								{footer[0].footer_links[3].companyLinks.map((link) => {
 									return (
 										<li key={link.title}>
