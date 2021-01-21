@@ -27,12 +27,14 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 0;
+	margin-left: -20px;
 }
 
 .navLinks ul li {
 	list-style: none;
-	font-size: 0.95rem;
+	font-size: 0.8rem;
 	color: #000;
+	margin: 0 20px;
 }
 
 .anchorhover:hover {
