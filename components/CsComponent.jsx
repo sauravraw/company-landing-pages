@@ -4,6 +4,11 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const url = "https://login-page-react.vercel.app/";
 
 export class CsComponent extends Component {
+	componentDidMount() {
+		document.title =
+			"Content Management System | Omnichannel Experiences | ContentStack";
+	}
+
 	render() {
 		const { header, main, footer } = this.props.cs;
 		return (

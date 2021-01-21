@@ -4,6 +4,10 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const url = "https://login-page-react.vercel.app/";
 
 export class RawComponent extends Component {
+	componentDidMount() {
+		document.title = "Raw Engineering: Digital Transformation";
+	}
+
 	render() {
 		const { header, main, footer } = this.props.raw;
 		return (

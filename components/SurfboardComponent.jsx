@@ -4,6 +4,10 @@ import styles from "../styles/Surfboard.module.css";
 const url = "https://login-page-react.vercel.app/";
 
 export class SurfboardComponent extends Component {
+	componentDidMount() {
+		document.title = "Surfboard Ventures | The Entrepreneur's Zone";
+	}
+
 	render() {
 		const { header, main, footer } = this.props.surfboard;
 		return (
