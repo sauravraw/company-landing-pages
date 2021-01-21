@@ -12,8 +12,6 @@ export class RawComponent extends Component {
 		const { header, main, footer } = this.props.raw;
 		return (
 			<div className={styles.container}>
-				{console.log(this.props.raw)}
-
 				<header className={styles.headerContainer}>
 					<div className={styles.navbar}>
 						<div className={styles.logo}>

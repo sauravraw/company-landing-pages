@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import axios from "axios";
-import CsComponent from "../components/CsComponent";
+import CSPages from "../components/CSPage";
 
 class Contentstack extends Component {
 	render() {
 		return (
 			<>
-				<CsComponent cs={this.props.cs} />
+				<CSPages cs={this.props.cs} />
 			</>
 		);
 	}
@@ -14,7 +14,7 @@ class Contentstack extends Component {
 
 export const getStaticProps = async () => {
 	let { data } = await axios.get(
-		"https://venu-raw.github.io/companyPage_data/contentstack.json"
+		"https://sauravraw.github.io/company_info_data/contentstack.json"
 	);
 
 	return {

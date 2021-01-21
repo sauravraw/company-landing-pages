@@ -1,0 +1,199 @@
+{
+	"header": [
+		{
+			"logo": {
+				"url": "https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt8dc4dd93cd29ae05/5f1a2be13986577a2d5f6736/Contentstack-full-logo-white_800x133.png"
+			},
+			"navigation": [
+				{
+					"title": "Home",
+					"href": "/"
+				},
+				{
+					"title": "Surfboard",
+					"href": "/surfboard"
+				},
+				{
+					"title": "Raw Engineering",
+					"href": "/raw"
+				},
+				{
+					"title": "Contentstack",
+					"href": "/contentstack"
+				}
+			]
+		}
+	],
+	"main": [
+		{
+			"banner_section": {
+				"banner_header": "Finally, A Modern Content Management System",
+				"banner_content": "Contentstack brings business and technology teams together to deliver personalized, omnichannel digital experiences.",
+				"banner_image": {
+					"url": "https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt0eac3686a06a4a3f/5f1a2be2ecbff322d09554d6/hero-carousel-1.jpg"
+				},
+				"primary_cta": {
+					"text": "Try for Free",
+					"link": "/try-for-free/"
+				},
+				"secondary_cta": {
+					"text": "Request a Demo",
+					"link": "/request-demo/"
+				}
+			}
+		},
+		{
+			"cta-section": {
+				"header": "TRY IT TO BELIEVE IT",
+				"url": "https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blta8ec620b53524f45/5f1a2bd31db8ad781814787d/download.jpg",
+				"primary_cta": {
+					"text": "Request a Demo",
+					"link": "/request-demo"
+				},
+				"secondary_cta": {
+					"text": "Try For Free",
+					"link": "/try-for-free"
+				}
+			}
+		}
+	],
+	"footer": [
+		{
+			"footer_logo": "https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt954cedac0397edba/5f1a2be1d0350a5e2a2fde71/contentstack-footer-logo.png",
+			"social_links": [
+				{
+					"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blt2c4673614dbdd576/5ed9e494047b8c2b9c260498/Twitter.svg",
+					"title": "Twitter",
+					"link": "https://twitter.com/contentstack"
+				},
+				{
+					"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blt002dda4326b06010/5ed9e48098e62f38ec84cd2e/Linkedin.svg",
+					"title": "LinkedIn",
+					"link": "https://www.linkedin.com/company/contentstack"
+				},
+				{
+					"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blt25d1537d8ec8095f/5ed9e468047b8c2b9c260494/Facebook.svg",
+					"title": "Facebook",
+					"link": "https://www.facebook.com/contentstack"
+				},
+				{
+					"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/bltf60ced1d8b14cad7/5eeb3a54688c1c62a49ae583/Youtube.svg",
+					"title": "Youtube",
+					"link": "https://www.youtube.com/contentstack"
+				},
+				{
+					"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/bltdfe4d4dd917540a1/5eeb4f89146cc4629e1ad3fd/Instagram.svg",
+					"title": "Instagram",
+					"link": "https://github.com/contentstack"
+				}
+			],
+			"footer_links": [
+				{
+					"title": "Product",
+					"productLinks": [
+						{
+							"link": "/features/",
+							"title": "Features"
+						},
+						{
+							"link": "/business-cms/",
+							"title": "For Business"
+						},
+						{
+							"link": "/developers-cms/",
+							"title": "For IT & Developers"
+						},
+						{
+							"link": "/integrations/",
+							"title": "Integrations"
+						},
+						{
+							"link": "/roi-calculator/",
+							"title": "ROI Calculator"
+						},
+						{
+							"link": "/pricing/",
+							"title": "Pricing"
+						},
+						{
+							"link": "/customer-success",
+							"title": "Customer Success"
+						}
+					]
+				},
+				{
+					"title": "Users",
+					"usersLinks": [
+						{
+							"link": "/docs/developers/#development-resources-and-sdks",
+							"title": "Supported Platforms"
+						},
+						{
+							"link": "/faqs/",
+							"title": "FAQs"
+						},
+						{ "link": "/trust/", "title": "Trust" },
+						{
+							"link": "https://status.contentstack.com/",
+							"title": "System Status"
+						}
+					]
+				},
+				{
+					"title": "Education",
+					"educationLinks": [
+						{
+							"link": "/resources/",
+							"title": "Customer Resources"
+						},
+						{
+							"link": "/cms-guides/",
+							"title": "CMS Guides"
+						},
+						{ "link": "/blog/", "title": "Blog" },
+						{
+							"link": "/docs/",
+							"title": "Docs"
+						}
+					]
+				},
+				{
+					"title": "Comapny",
+					"companyLinks": [
+						{
+							"link": "/about/",
+							"title": "About"
+						},
+						{
+							"link": "/company/news/",
+							"title": "News"
+						},
+						{ "link": "/company/press/", "title": "Press" },
+						{
+							"link": "/company/careers/",
+							"title": "Careers"
+						},
+						{
+							"link": "/partners/become-a-partner/",
+							"title": "Become a Partner"
+						},
+						{
+							"link": "/company/contact-us/",
+							"title": "Contact Us"
+						}
+					]
+				}
+			],
+			"bottom_links": [
+				{
+					"label": "Terms",
+					"link": "/terms-of-service"
+				},
+				{
+					"label": "Privacy",
+					"link": "/privacy"
+				}
+			]
+		}
+	]
+}

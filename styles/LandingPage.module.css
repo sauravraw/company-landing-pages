@@ -1,0 +1,20 @@
+.container {
+	background-image: url("https://edsurge.imgix.net/uploads/post/image/11914/teaching-1552092162.jpg?auto=compress%2Cformat&w=640&h=259&fit=crop");
+	width: 60%;
+	height: 100%;
+	border: 1px solid black;
+	margin: 150px auto;
+	padding: 80px;
+}
+
+.container ul {
+	display: flex;
+}
+.container ul li {
+	margin: auto 20px;
+}
+
+.containerimg {
+	width: 200px;
+	height: 100px;
+}

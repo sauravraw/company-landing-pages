@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import axios from "axios";
-import RawComponent from "../components/RawComponent";
+import RawPage from "../components/RawPage";
 
 class Raw extends Component {
 	render() {
 		return (
 			<>
-				<RawComponent raw={this.props.raw} />
+				<RawPage raw={this.props.raw} />
 			</>
 		);
 	}
@@ -14,7 +14,7 @@ class Raw extends Component {
 
 export const getStaticProps = async () => {
 	let { data } = await axios.get(
-		"https://venu-raw.github.io/companyPage_data/raw.json"
+		"https://sauravraw.github.io/company_info_data/raw.json"
 	);
 
 	return {

@@ -1,0 +1,80 @@
+{
+	"header": [
+		{
+			"logo": {
+				"url": "https://images.contentstack.io/v3/assets/bltaacb6b0c9b693c2d/bltc1a71705f49d391d/5de663548d1dce6ad6bed8bf/header-logo.svg"
+			},
+			"navigation": [
+				{
+					"title": "Home",
+					"href": "/"
+				},
+				{
+					"title": "Surfboard",
+					"href": "/surfboard"
+				},
+				{
+					"title": "Raw Engineering",
+					"href": "/raw"
+				},
+				{
+					"title": "Contentstack",
+					"href": "/contentstack"
+				}
+			]
+		}
+	],
+	"main": [
+		{
+			"banner_section": {
+				"banner_image": "https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/blte86401d468e74845/5e3137f08f7e217daef66f54/Landing_Page_Image_Motion.jpg?format=pjpg&width=540",
+				"banner_title": "Fast Track Innovation From Vision to Reality",
+				"banner_content": "Raw Engineering’s experienced Strategic Consultants, Solutions Architects, Designers, and Developers turn Business Vision into Digital Reality."
+			}
+		}
+	],
+	"footer": [
+		{
+			"copyright": "Copyright © 2021 Raw Engineering LLC. All Rights Reserved.",
+			"navigation": [
+				{ "title": "Privacy", "link": "/privacy-statement" },
+
+				{
+					"title": "Backend Terms of Use",
+					"link": "/backend-terms-of-service"
+				}
+			],
+			"cta": {
+				"title": "GET IN TOUCH",
+				"link": "/contact-us",
+				"heading": "Ready to get started on your next project?"
+			},
+			"soc_section": {
+				"image_alt": "SOC Logo",
+				"url": "https://images.contentstack.io/v3/assets/bltaacb6b0c9b693c2d/blt67d1684f23bec105/5e31575101e4f445b22f4bde/soc_logo.png"
+			},
+			"social_links": [
+				{
+					"link": "https://twitter.com/raweng",
+					"title": "Twitter",
+					"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blt2c4673614dbdd576/5ed9e494047b8c2b9c260498/Twitter.svg"
+				},
+				{
+					"link": "https://www.linkedin.com/company/raw-engineering",
+					"title": "LinkedIn",
+					"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blt002dda4326b06010/5ed9e48098e62f38ec84cd2e/Linkedin.svg"
+				},
+				{
+					"link": "https://www.facebook.com/rawengineering/",
+					"title": "Facebook",
+					"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blt25d1537d8ec8095f/5ed9e468047b8c2b9c260494/Facebook.svg"
+				},
+				{
+					"link": "https://www.instagram.com/raw.engineering/",
+					"title": "Instagram",
+					"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/bltdfe4d4dd917540a1/5eeb4f89146cc4629e1ad3fd/Instagram.svg"
+				}
+			]
+		}
+	]
+}

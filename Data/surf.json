@@ -1,0 +1,103 @@
+{
+	"header": [
+		{
+			"logo": {
+				"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blte814c52ab7983cb7/5ed94783ff1cb239b9500ed0/logo@3x.svg"
+			},
+			"navigation": [
+				{
+					"title": "Home",
+					"href": "/"
+				},
+				{
+					"title": "Surfboard",
+					"href": "/surfboard"
+				},
+				{
+					"title": "Raw Engineering",
+					"href": "/raw"
+				},
+				{
+					"title": "Contentstack",
+					"href": "/contentstack"
+				}
+			]
+		}
+	],
+	"main": [
+		{
+			"banner_section": {
+				"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blt971bfb34d4e547b8/5f50e9400ab106265a188450/Home-hero-banner-new@3x.png",
+				"title": "The Entrepreneur’s Surfboard",
+				"description": "Entrepreneurship isn’t just about the end game. It’s about the journey. There are ups and downs. Your resilience stands tall against the roughest seas. Sometimes you prevail. Sometimes you wipe out. We are here to help remarkable entrepreneurs to “just keep paddling” and provide the courage they need to ride the highest of waves."
+			}
+		}
+	],
+	"footer": [
+		{
+			"contact_mail": "info@surfboardventures.com",
+			"copyright_text": "Copyright © 2021 Surfboard Ventures. All Rights Reserved.",
+			"footer_links": [
+				{
+					"nav_1": [
+						{
+							"title": "Portfolio",
+							"href": "/portfolio"
+						},
+						{
+							"title": "Academy",
+							"href": "/academy"
+						},
+						{
+							"title": "Events",
+							"href": "/events"
+						}
+					],
+					"nav_2": [
+						{
+							"title": "Gallery",
+							"href": "/gallery"
+						},
+						{
+							"title": "e-Certificates",
+							"href": "/e-certificates"
+						},
+						{
+							"title": "Contact Us",
+							"href": "/contact-us"
+						}
+					]
+				}
+			],
+			"social_media_section": {
+				"social_media_icons": [
+					{
+						"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blt25d1537d8ec8095f/5ed9e468047b8c2b9c260494/Facebook.svg",
+						"title": "Facebook",
+						"href": "https://www.facebook.com/Surfboard-Ventures-100337055057153/?modal=admin_todo_tour"
+					},
+					{
+						"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blt002dda4326b06010/5ed9e48098e62f38ec84cd2e/Linkedin.svg",
+						"title": "LinkedIn",
+						"href": "https://www.linkedin.com/company/surfboard-ventures/"
+					},
+					{
+						"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blt2c4673614dbdd576/5ed9e494047b8c2b9c260498/Twitter.svg",
+						"title": "Twitter",
+						"href": "https://twitter.com/surfboardvc"
+					},
+					{
+						"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/bltf60ced1d8b14cad7/5eeb3a54688c1c62a49ae583/Youtube.svg",
+						"title": "Youtube",
+						"href": "https://www.youtube.com/channel/UCHP7aaa0Bd8ujnc3g6Tl4yA/"
+					},
+					{
+						"url": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/bltdfe4d4dd917540a1/5eeb4f89146cc4629e1ad3fd/Instagram.svg",
+						"title": "Instagram",
+						"href": "https://www.instagram.com/surfboardventures/"
+					}
+				]
+			}
+		}
+	]
+}

@@ -10,9 +10,9 @@ export class SurfboardComponent extends Component {
 
 	render() {
 		const { header, main, footer } = this.props.surfboard;
+		console.log(this.props.surfboard);
 		return (
 			<div className={styles.container}>
-				{console.log(this.props.surfboard)}
 				<div className={styles.scrollup}>
 					<a href="#head">
 						<img

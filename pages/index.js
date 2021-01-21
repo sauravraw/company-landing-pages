@@ -1,13 +1,12 @@
 import React, { Component } from "react";
+import LandingPage from "../components/LandingPage";
 import axios from "axios";
-// import "../styles/globals.css";
-import SurfboardComponent from "../components/SurfboardComponent";
 
-class Surfboard extends Component {
+class Home extends Component {
 	render() {
 		return (
 			<>
-				<SurfboardComponent surfboard={this.props.surfboard} />
+				<LandingPage landing={this.props.landing} />
 			</>
 		);
 	}
@@ -15,14 +14,14 @@ class Surfboard extends Component {
 
 export const getStaticProps = async () => {
 	let { data } = await axios.get(
-		"https://venu-raw.github.io/companyPage_data/surfboard.json"
+		"https://sauravraw.github.io/company_info_data/landing.json"
 	);
 
 	return {
 		props: {
-			surfboard: data,
+			landing: data,
 		},
 	};
 };
 
-export default Surfboard;
+export default Home;
